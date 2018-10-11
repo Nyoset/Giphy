@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF4B7B6D95400857C3E034E4 /* libPods-Giphy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E16B0EDBCA0B909C7D56EEDD /* libPods-Giphy.a */; };
+		F468029A216F5B0200D98B77 /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = F4680297216F5B0200D98B77 /* Headers */; };
+		F468029B216F5B0200D98B77 /* Local Podspecs in Resources */ = {isa = PBXBuildFile; fileRef = F4680298216F5B0200D98B77 /* Local Podspecs */; };
+		F468029C216F5B0200D98B77 /* FLAnimatedImage in Resources */ = {isa = PBXBuildFile; fileRef = F4680299216F5B0200D98B77 /* FLAnimatedImage */; };
 		F4691645216DFE89003105D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4691644216DFE89003105D5 /* AppDelegate.m */; };
 		F4691648216DFE89003105D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4691647216DFE89003105D5 /* ViewController.m */; };
 		F469164B216DFE89003105D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4691649216DFE89003105D5 /* Main.storyboard */; };
 		F469164D216DFE8A003105D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F469164C216DFE8A003105D5 /* Assets.xcassets */; };
 		F4691650216DFE8A003105D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F469164E216DFE8A003105D5 /* LaunchScreen.storyboard */; };
 		F4691653216DFE8A003105D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4691652216DFE8A003105D5 /* main.m */; };
+		F469165D216E31E1003105D5 /* gif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F469165C216E31E0003105D5 /* gif1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F01BC8961717BD15FFD517A /* Pods-Giphy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giphy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Giphy/Pods-Giphy.debug.xcconfig"; sourceTree = "<group>"; };
+		5F257FD9182771011511F682 /* Pods-Giphy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giphy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Giphy/Pods-Giphy.release.xcconfig"; sourceTree = "<group>"; };
+		E16B0EDBCA0B909C7D56EEDD /* libPods-Giphy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Giphy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4680297216F5B0200D98B77 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = Pods/Headers; sourceTree = "<group>"; };
+		F4680298216F5B0200D98B77 /* Local Podspecs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Local Podspecs"; path = "Pods/Local Podspecs"; sourceTree = "<group>"; };
+		F4680299216F5B0200D98B77 /* FLAnimatedImage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FLAnimatedImage; path = Pods/FLAnimatedImage; sourceTree = "<group>"; };
 		F4691640216DFE88003105D5 /* Giphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giphy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4691643216DFE89003105D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4691644216DFE89003105D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +37,7 @@
 		F469164F216DFE8A003105D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4691651216DFE8A003105D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4691652216DFE8A003105D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F469165C216E31E0003105D5 /* gif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4B7B6D95400857C3E034E4 /* libPods-Giphy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AEBD090DC3637693620093E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4680299216F5B0200D98B77 /* FLAnimatedImage */,
+				F4680297216F5B0200D98B77 /* Headers */,
+				F4680298216F5B0200D98B77 /* Local Podspecs */,
+				2F01BC8961717BD15FFD517A /* Pods-Giphy.debug.xcconfig */,
+				5F257FD9182771011511F682 /* Pods-Giphy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3644C69B23ACF520BCB08A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E16B0EDBCA0B909C7D56EEDD /* libPods-Giphy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4691637216DFE88003105D5 = {
 			isa = PBXGroup;
 			children = (
 				F4691642216DFE88003105D5 /* Giphy */,
 				F4691641216DFE88003105D5 /* Products */,
+				8AEBD090DC3637693620093E /* Pods */,
+				B3644C69B23ACF520BCB08A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +99,7 @@
 				F4691647216DFE89003105D5 /* ViewController.m */,
 				F4691649216DFE89003105D5 /* Main.storyboard */,
 				F469164C216DFE8A003105D5 /* Assets.xcassets */,
+				F469165C216E31E0003105D5 /* gif1.gif */,
 				F469164E216DFE8A003105D5 /* LaunchScreen.storyboard */,
 				F4691651216DFE8A003105D5 /* Info.plist */,
 				F4691652216DFE8A003105D5 /* main.m */,
@@ -78,6 +114,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4691656216DFE8A003105D5 /* Build configuration list for PBXNativeTarget "Giphy" */;
 			buildPhases = (
+				556A6B864C006995EFC1F1D1 /* [CP] Check Pods Manifest.lock */,
 				F469163C216DFE88003105D5 /* Sources */,
 				F469163D216DFE88003105D5 /* Frameworks */,
 				F469163E216DFE88003105D5 /* Resources */,
@@ -129,12 +166,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4691650216DFE8A003105D5 /* LaunchScreen.storyboard in Resources */,
+				F468029A216F5B0200D98B77 /* Headers in Resources */,
+				F468029C216F5B0200D98B77 /* FLAnimatedImage in Resources */,
 				F469164D216DFE8A003105D5 /* Assets.xcassets in Resources */,
 				F469164B216DFE89003105D5 /* Main.storyboard in Resources */,
+				F468029B216F5B0200D98B77 /* Local Podspecs in Resources */,
+				F469165D216E31E1003105D5 /* gif1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		556A6B864C006995EFC1F1D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Giphy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F469163C216DFE88003105D5 /* Sources */ = {
@@ -283,6 +349,7 @@
 		};
 		F4691657216DFE8A003105D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F01BC8961717BD15FFD517A /* Pods-Giphy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +366,7 @@
 		};
 		F4691658216DFE8A003105D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F257FD9182771011511F682 /* Pods-Giphy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
